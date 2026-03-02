@@ -30,12 +30,12 @@ const ContactSection = () => {
     }
 
     setSending(true);
-    // Simulate sending
     setTimeout(() => {
-      const subject = encodeURIComponent(`Portfolio Inquiry from ${result.data.name}`);
-      const body = encodeURIComponent(`Name: ${result.data.name}\nEmail: ${result.data.email}\n\n${result.data.message}`);
-      window.open(`mailto:satyadarshipradhan@gmail.com?subject=${subject}&body=${body}`, "_self");
-      toast.success("Opening your email client...");
+      const text = encodeURIComponent(
+        `Hi Satyadarshi! 👋\n\nName: ${result.data.name}\nEmail: ${result.data.email}\n\nMessage:\n${result.data.message}`
+      );
+      window.open(`https://wa.me/919861688952?text=${text}`, "_blank");
+      toast.success("Opening WhatsApp... your message is ready to send!");
       setForm({ name: "", email: "", message: "" });
       setSending(false);
     }, 500);
@@ -105,7 +105,7 @@ const ContactSection = () => {
 
             <div className="flex items-center gap-3 pt-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/satyadarshi_official?igsh=MTFjbjN1ZHlwMW81NQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors"

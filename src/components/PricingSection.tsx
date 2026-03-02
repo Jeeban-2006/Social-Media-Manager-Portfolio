@@ -77,11 +77,10 @@ const PricingSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15 }}
-              className={`relative rounded-xl p-6 border transition-all duration-300 ${
-                pkg.featured
+              className={`relative rounded-xl p-6 border transition-all duration-300 flex flex-col ${pkg.featured
                   ? "bg-background border-primary glow-shadow scale-[1.02]"
                   : "bg-background border-border hover:border-primary/30"
-              }`}
+                }`}
             >
               {pkg.featured && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-xs font-display font-semibold tracking-wider uppercase">
@@ -103,11 +102,10 @@ const PricingSection = () => {
               </ul>
               <a
                 href="#contact"
-                className={`block text-center py-3 rounded-lg font-display font-semibold text-sm transition-all ${
-                  pkg.featured
+                className={`mt-auto block text-center py-3 rounded-lg font-display font-semibold text-sm transition-all ${pkg.featured
                     ? "bg-primary text-primary-foreground hover:opacity-90"
                     : "border border-border text-foreground hover:bg-secondary"
-                }`}
+                  }`}
               >
                 Get Started
               </a>

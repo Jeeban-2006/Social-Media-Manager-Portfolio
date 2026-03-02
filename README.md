@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
+# Satyadarshi Pradhan — Social Media Manager Portfolio
 
-## Project info
+A professional portfolio website for **Satyadarshi Pradhan**, a Social Media Manager based in Bhubaneswar, Odisha, India. Built to showcase Instagram growth work, client results, service packages, and a direct WhatsApp contact form.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌐 Live Site
+[satyadarshipradhan.in](https://satyadarshipradhan.in)
 
-## How can I edit this code?
+## 📸 Instagram
+[@satyadarshi_official](https://www.instagram.com/satyadarshi_official)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+| Category | Technology |
+|---|---|
+| Framework | React 18 + TypeScript |
+| Build Tool | Vite 7 |
+| Styling | Tailwind CSS v3 |
+| Animations | Framer Motion |
+| UI Components | shadcn/ui (Radix UI) |
+| Form Validation | Zod |
+| Icons | Lucide React |
+| Fonts | Space Grotesk + DM Sans (Google Fonts) |
+| Contact | WhatsApp API (`wa.me`) |
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📁 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+showcase-studio/
+├── public/
+│   ├── favicon.png         # Brand favicon
+│   ├── robots.txt          # SEO crawler rules
+│   └── sitemap.xml         # XML sitemap for Google
+├── src/
+│   ├── assets/work/        # Client & creative photos
+│   │   ├── client2–4.png   # Instagram profile screenshots
+│   │   └── creative1–27.jpg # Portfolio creative work
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── TickerStrip.tsx
+│   │   ├── ServicesSection.tsx
+│   │   ├── WorkSection.tsx
+│   │   ├── PricingSection.tsx
+│   │   ├── WhyChooseSection.tsx
+│   │   ├── TestimonialsSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   └── Footer.tsx
+│   ├── pages/Index.tsx
+│   └── index.css           # Global styles + animations
+└── index.html              # SEO-optimised entry point
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+### Prerequisites
+- Node.js 18+
+- npm 9+
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Install & Run
+```bash
+# Install dependencies
+npm install
 
-## What technologies are used for this project?
+# Start development server
+npm run dev
+```
+Open [http://localhost:8080](http://localhost:8080)
 
-This project is built with:
+### Production Build
+```bash
+npm run build
+```
+Output is in the `dist/` folder — ready to deploy.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🌍 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Recommended: Vercel (Free)
+1. Push to GitHub
+2. Go to [vercel.com](https://vercel.com) → New Project → Import your repo
+3. Framework: **Vite** (auto-detected)
+4. Click Deploy
+5. Add your custom domain `satyadarshipradhan.in`
 
-## Can I connect a custom domain to my Lovable project?
+### Netlify
+1. `npm run build`
+2. Drag the `dist/` folder to [netlify.com/drop](https://netlify.com/drop)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🔍 SEO Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Structured Data**: JSON-LD `Person` + `ProfessionalService` schemas for Google rich results
+- **Geo Tags**: Bhubaneswar, Odisha, India — targets local search
+- **Open Graph + Twitter Card**: Rich previews when sharing on social
+- **Canonical URL**: Prevents duplicate content issues
+- **Sitemap**: `/sitemap.xml` for Google Search Console
+- **Robots.txt**: Allows all crawlers
+- **Keywords**: Optimised for "Satyadarshi Pradhan", "Social Media Manager Bhubaneswar"
+
+### Registering with Google
+1. Go to [Google Search Console](https://search.google.com/search-console)
+2. Add property: `satyadarshipradhan.in`
+3. Verify via DNS or HTML file
+4. Submit sitemap: `https://satyadarshipradhan.in/sitemap.xml`
+
+---
+
+## ✉️ Contact Form
+The contact form sends messages via **WhatsApp Web** (`wa.me/919861688952`) with the visitor's name, email, and message pre-filled. No backend required.
+
+---
+
+## 📄 License
+© 2026 Satyadarshi Pradhan. All rights reserved.
