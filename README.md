@@ -3,7 +3,7 @@
 A professional portfolio website for **Satyadarshi Pradhan**, a Social Media Manager based in Bhubaneswar, Odisha, India. Built to showcase Instagram growth work, client results, service packages, and a direct WhatsApp contact form.
 
 ## 🌐 Live Site
-[satyadarshipradhan.in](https://satyadarshipradhan.in)
+[satyadarshipradhan.in](https://satyadarshipradhan.vercel.app/)
 
 ## 📸 Instagram
 [@satyadarshi_official](https://www.instagram.com/satyadarshi_official)
