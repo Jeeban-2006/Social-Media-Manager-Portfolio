@@ -62,7 +62,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3 ml-2 pl-4 border-l border-border">
             <motion.a
-              href="https://www.instagram.com/satyadarshi_official?igsh=MTFjbjN1ZHlwMW81NQ=="
+              href="https://www.instagram.com/satyas_click?igsh=YnB4b3c5ODh4bGhq"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -131,7 +131,7 @@ const Navbar = () => {
                 </motion.a>
               ))}
               <div className="flex items-center gap-4 pt-4 mt-1">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+                <a href="https://www.instagram.com/satyas_click?igsh=YnB4b3c5ODh4bGhq" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a href="https://wa.me/919861688952" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="WhatsApp">

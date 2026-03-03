@@ -6,7 +6,7 @@ A professional portfolio website for **Satyadarshi Pradhan**, a Social Media Man
 [satyadarshipradhan.in](https://satyadarshipradhan.vercel.app/)
 
 ## 📸 Instagram
-[@satyadarshi_official](https://www.instagram.com/satyadarshi_official)
+[@satyas_click](https://www.instagram.com/satyas_click?igsh=YnB4b3c5ODh4bGhq)
 
 ---
 

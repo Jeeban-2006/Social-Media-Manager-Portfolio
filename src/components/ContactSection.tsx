@@ -105,7 +105,7 @@ const ContactSection = () => {
 
             <div className="flex items-center gap-3 pt-4">
               <a
-                href="https://www.instagram.com/satyadarshi_official?igsh=MTFjbjN1ZHlwMW81NQ=="
+                href="https://www.instagram.com/satyas_click?igsh=YnB4b3c5ODh4bGhq"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors"

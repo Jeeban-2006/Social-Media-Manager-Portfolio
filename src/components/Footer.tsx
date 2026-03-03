@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-4">
             <motion.a
-              href="https://www.instagram.com/satyadarshi_official?igsh=MTFjbjN1ZHlwMW81NQ=="
+              href="https://www.instagram.com/satyas_click?igsh=YnB4b3c5ODh4bGhq"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -2 }}
